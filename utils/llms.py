@@ -3,9 +3,9 @@ from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 # from langchain_openai import ChatOpenAI
 load_dotenv()
-# api_key = os.getenv("GROQ_API_KEY")
+api_key = os.getenv("GROQ_API_KEY")
 # OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
-# os.environ["OPENAI_API_KEY"]=OPENAI_API_KEY
+os.environ["GROQ_API_KEY"]=api_key
 
 if "SSL_CERT_FILE" in os.environ:
     del os.environ["SSL_CERT_FILE"]
