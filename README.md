@@ -1,6 +1,6 @@
 # Doctor-Appointment-MultiAgent-System
 
-### How to run??
+## How to run??
 STEPS:
 Clone the repository
 ```
@@ -14,7 +14,7 @@ Then open your git bash terminal and run:
 ```
 source activate ./venv
 ```
-#### STEP 02- install the requirements
+### STEP 02- install the requirements
 ```
 pip install -r requirements.txt
 ```
