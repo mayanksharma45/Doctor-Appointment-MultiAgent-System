@@ -6,7 +6,7 @@ Clone the repository
 ```
 https://github.com/mayanksharma45/Doctor-Appointment-MultiAgent-System.git
 ```
-__STEP 01- Create a conda virtual environment after opening the repository__
+### STEP 01- Create a conda virtual environment after opening the repository
 ```
 conda create -p venv python=3.10 -y
 ```
@@ -14,7 +14,7 @@ Then open your git bash terminal and run:
 ```
 source activate ./venv
 ```
-__STEP 02- install the requirements__
+#### STEP 02- install the requirements
 ```
 pip install -r requirements.txt
 ```
